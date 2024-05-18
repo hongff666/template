@@ -10,5 +10,6 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.quarto" },
   -- import/override with your plugins folder
 }
