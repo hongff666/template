@@ -11,5 +11,7 @@ return {
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.quarto" },
+  { import = "astrocommunity.pack.vue" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
   -- import/override with your plugins folder
 }
