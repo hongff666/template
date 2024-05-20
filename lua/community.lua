@@ -12,6 +12,16 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.quarto" },
   { import = "astrocommunity.pack.vue" },
+  { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.toml" },
+  { import = "astrocommunity.pack.kotlin" },
+  { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.rainbow-delimiter-indent-blankline" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
-  -- import/override with your plugins folder
 }
