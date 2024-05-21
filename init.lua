@@ -15,5 +15,18 @@ if not pcall(require, "lazy") then
   vim.cmd.quit()
 end
 
+vim.g.clipboard = {
+  name = "myClipboard",
+  copy = {
+    ["+"] = { "tmux", "load-buffer", "-" },
+    ["*"] = { "tmux", "load-buffer", "-" },
+  },
+  paste = {
+    ["+"] = { "tmux", "save-buffer", "-" },
+    ["*"] = { "tmux", "save-buffer", "-" },
+  },
+  cache_enabled = 1,
+}
+
 require "lazy_setup"
 require "polish"
