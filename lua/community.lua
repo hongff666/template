@@ -24,4 +24,29 @@ return {
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.rainbow-delimiter-indent-blankline" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
+  {
+    "mfussenegger/nvim-jdtls",
+    opts = {
+      settings = {
+        java = {
+          configuration = {
+            runtimes = {
+              {
+                name = "JavaSE-1.8",
+                path = "/home/hhl/.sdkman/candidates/java/8.0.412-kona",
+                default = true,
+              },
+            },
+          },
+        },
+        format = {
+          enabled = true,
+          settings = { -- you can use your preferred format style
+            url = "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+            profile = "GoogleStyle",
+          },
+        },
+      },
+    },
+  },
 }
