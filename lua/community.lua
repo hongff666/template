@@ -1,6 +1,7 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  { import = "astrocommunity.completion.codeium-nvim" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.python" },
@@ -17,7 +18,7 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.rainbow-delimiter-indent-blankline" },
-  { import = "astrocommunity.completion.copilot-lua-cmp" },
+  --{ import = "astrocommunity.completion.copilot-lua-cmp" },
   {
     "mfussenegger/nvim-jdtls",
     opts = {
