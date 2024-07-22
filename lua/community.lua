@@ -28,14 +28,14 @@ return {
             runtimes = {
               {
                 name = "JavaSE-1.8",
-                path = "/home/hhl/.sdkman/candidates/java/current",
+                path = "/home/hhl/.sdkman/candidates/java/8.0.412-kona",
+                default = false,
+              },
+              {
+                name = "JavaSE-17",
+                path = "/home/hhl/.sdkman/candidates/java/17.0.11-oracle",
                 default = true,
               },
-              -- {
-              --   name = "JavaSE-17",
-              --   path = "/home/hhl/.sdkman/candidates/java/current",
-              --   default = true,
-              -- },
             },
           },
         },
